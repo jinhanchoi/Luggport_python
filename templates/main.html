@@ -1,0 +1,42 @@
+{% extends "main_layout.html" %} {% block content %}
+
+<div class="container" id="content">
+    <!-- About-Starts-Here -->
+    <div class="about slideanim">
+        <h1 class="titleHeader">LUGGPORT</h1>
+        <h3 align="center" class="titleHeader"><b>Deliver Your luggage</b> To the Airport!</h3>
+        <div class="alignCenter">
+            <input type="submit" class="more_btn" ng-click="goToDeliver()" value="Deliver to Airport">
+        </div>
+        <div class="about-info slideanim">
+            <!-- <div class="col-md-6 col-sm-6" id="about-pic">
+                  <img src="images/9.jpg" alt="About">
+              </div> -->
+            <div class="col-md-12 col-sm-12" align="center">
+                <!-- <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum velit esse cillum dolore.</p> -->
+                <span>"Just select the spot and date!"</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <div class="about slideanim">
+        <h3 align="center" class="titleHeader"><b>Get back </b>your luggage!</h3>
+        <div class="alignCenter">
+            <input type="submit" class="more_btn" ng-click="goToGetback()" value="Get back your luggage">
+        </div>
+        <div class="about-info slideanim">
+            <!-- <div class="col-md-6 col-sm-6" id="about-pic">
+                  <img src="images/9.jpg" alt="About">
+              </div> -->
+            <div class="col-md-12 col-sm-12" align="center">
+                <!-- <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum velit esse cillum dolore.</p> -->
+                <span>"show your barcode and get back your luggage"</span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <!-- //About-Ends-Here -->
+</div>
+{% endblock %}

@@ -1,0 +1,44 @@
+{
+  "mainMenus" : [
+    {
+        "name" : "Intro",
+        "type" : "normal",
+        "url"  : "introduce",
+        "showYN" : "N"
+    },
+    {
+        "name" : "Booking",
+        "type" : "normal",
+        "url"  : "booking",
+        "showYN" : "N"
+    },
+    {
+      "name" : "합격 현황",
+      "type" : "normal",
+      "url"  : "passHistory",
+      "showYN" : "N"
+    },
+    {
+      "name" : "Daum Cafe",
+      "type" : "extLINK",
+      "url"  : "http://cafe.daum.net/aftermilitarylife",
+      "showYN" : "N"
+    },
+    {
+        "name" : "Dropdown",
+        "type" : "dropdown",
+        "url"  : "#",
+        "showYN" : "N",
+        "subMenu" : [
+          {
+            "name" : "subMenu1",
+            "url" : "/"
+          },
+          {
+            "name" : "subMenu2",
+            "url" : "/"
+          }
+        ]
+    }
+  ]
+}
