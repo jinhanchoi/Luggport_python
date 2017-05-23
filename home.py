@@ -10,11 +10,14 @@ def main():
 
 @app.route('/spots',methods=['GET'])
 def spots():
-    topics = list(consumer.topics())
-    topics.remove("__consumer_offsets")
-    print(topics)
-    print(consumer)
-    return render_template("spots.html",topics = topics)
+    # topics = list(consumer.topics())
+    # topics.remove("__consumer_offsets")
+    # print(topics)
+    # print(consumer)
+    spots = dao.db['spot']
+    for tspot in spots.find():
+        print(tspot)
+    return render_template("spots.html",spots = spots.find())
 
 @app.route('/create')
 def createTopic():

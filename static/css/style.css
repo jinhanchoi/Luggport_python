@@ -5,20 +5,27 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+
 /*-- Fonts --*/
+
 @font-face {
     font-family: 'FjallaOne-Regular';
     src: url(../fonts/FjallaOne-Regular.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'Montserrat-Regular';
     src: url(../fonts/Montserrat-Regular.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'OpenSans-Regular';
     src: url(../fonts/OpenSans-Regular.ttf) format('truetype');
 }
+
+
 /*-- //Fonts --*/
+
 
 /*-- Reset Code --*/
 
@@ -27,6 +34,7 @@ body {
     margin: 0;
     background: url("../images/bg.png");
 }
+
 body a {
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -35,72 +43,93 @@ body a {
     -ms-transition: 0.5s all;
     text-decoration: none;
 }
+
 body a:hover {
     text-decoration: none;
 }
+
 body a:focus {
     outline: none;
     text-decoration: none;
 }
-input[type="button"],input[type="submit"] {
+
+input[type="button"],
+input[type="submit"] {
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     text-align: center;
     font-family: 'Montserrat-Regular';
     font-size: 35px;
     padding: 50px 0;
 }
-h6.introduce-title{
-  padding: 10px 0;
+
+h6.introduce-title {
+    padding: 10px 0;
 }
+
 p {
     margin: 0;
     font-size: 15px;
     font-family: 'OpenSans-Regular';
 }
+
 ul {
     margin: 0;
     padding: 0;
 }
+
 label {
     margin: 0;
 }
+
 img {
     width: 100%;
 }
+
 span {
     font-family: 'OpenSans-Regular';
 }
 
 .g-map {
     margin: -10px 0px;
-		text-align: center;
+    text-align: center;
 }
-#map-canvas
-{
+
+#map-canvas {
     width: 100%;
     height: 400px;
-		text-align: center;
+    text-align: center;
 }
+
+
 /*.list-group-item.active {
   background-color: #009688;
   border-color: #009688;
 }*/
 
 .alignCenter {
-  margin: 15px 0 30px 0;
-  text-align: center;
+    margin: 15px 0 30px 0;
+    text-align: center;
 }
+
 
 /*-- //Reset Code --*/
 
+
 /*-- Index-Page-Styling --*/
+
 
 /*-- Header-Starts-Here --*/
 
@@ -109,25 +138,34 @@ span {
     padding-left: 0;
 }
 
+
 /*-- Navbar-Starts-Here --*/
 
-.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+.container>.navbar-header,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container-fluid>.navbar-collapse {
     margin-right: 0;
     margin-left: 0;
 }
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
     border-color: transparent;
     z-index: 99999;
 }
+
 .navbar {
     margin-bottom: 0;
     border: none;
     z-index: 99999;
     border-radius: 0;
 }
+
 .navbar-inverse .navbar-brand {
     color: #EEE;
 }
+
 .navbar-brand {
     font-size: 20px;
     font-family: 'FjallaOne-Regular';
@@ -139,65 +177,82 @@ span {
     background-color: #009688;
     border-color: transparent;
 }
+
 .navbar-right {
     width: 90%;
 }
 
-.navbar-nav > li {
+.navbar-nav>li {
     float: left;
     width: 14.28%;
     text-align: center;
 }
-.navbar-inverse .navbar-nav > li > a {
+
+.navbar-inverse .navbar-nav>li>a {
     color: #EEE;
 }
-.navbar-nav > li > a {
+
+.navbar-nav>li>a {
     font-family: 'Montserrat-Regular';
     font-size: 16px;
 }
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
     color: #009688;
     background-color: #eee;
 }
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
     color: #333;
     background-color: #EEE;
 }
 
+
 /*-- Dropdown-Menu --*/
+
 .dropdown-menu {
     min-width: 145px;
     background-color: #333;
     top: 98%;
 }
+
 ul.dropdown-menu.dropdown1 {
     text-align: center;
     padding: 0;
     top: 98%;
 }
+
 ul.dropdown-menu.dropdown-menu2 {
     width: 165px;
 }
-.navbar-nav > li > .dropdown-menu {
+
+.navbar-nav>li>.dropdown-menu {
     margin-top: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     padding: 0;
 }
+
 .navbar-right .dropdown-menu {
     right: 0;
     left: -1px;
 }
-.dropdown-menu > li > a {
+
+.dropdown-menu>li>a {
     font-size: 16px;
     padding: 10px 20px;
     background-color: #333;
     color: #EEE;
     font-family: 'Montserrat-Regular';
 }
-.dropdown-menu > li > a:hover {
+
+.dropdown-menu>li>a:hover {
     color: #009688;
 }
+
 .caret {
     float: right;
     margin-top: 10px;
@@ -221,6 +276,7 @@ ul.dropdown-menu.dropdown-menu2 {
 .dropdown-submenu:hover>.dropdown-menu {
     display: block;
 }
+
 .dropdown-submenu>a:after {
     display: block;
     content: " ";
@@ -248,20 +304,29 @@ ul.dropdown-menu.dropdown-menu2 {
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
-.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
     border-color: transparent;
 }
+
+
 /*-- //Dropdown-Menu --*/
 
+
 /*-- Login-Pop --*/
+
 .login-pop {
     float: left;
     width: 100%;
     text-align: center;
 }
+
 #loginpop {
     position: relative;
 }
+
 i.arrow {
     font-size: 0.9em;
     color: #34353a;
@@ -271,14 +336,17 @@ i.arrow {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
- }
+}
+
 #loginpop a span:hover i.arrow {
     color: #fff;
 }
+
 #loginpop a {
     text-decoration: none;
     width: 100%;
 }
+
 #loginpop a span {
     display: block;
     font-size: 16px;
@@ -292,18 +360,25 @@ i.arrow {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
- #loginpop a span:hover {
+
+#loginpop a span:hover {
     color: #333;
     background-color: #eee;
 }
+
+
 /*-- Login-Button --*/
+
 #loginButton {
     display: inline-block;
     position: relative;
     z-index: 30;
     cursor: pointer;
 }
+
+
 /*-- Login-Box --*/
+
 #loginBox {
     position: absolute;
     top: 60px;
@@ -313,6 +388,7 @@ i.arrow {
     margin-bottom: 20px;
     border: 1px solid rgb(218, 218, 218);
 }
+
 #loginForm:after {
     content: '';
     position: absolute;
@@ -322,7 +398,10 @@ i.arrow {
     border-right: 10px solid transparent;
     border-bottom: 10px solid #FFF;
 }
+
+
 /*-- Login-Form --*/
+
 #loginForm {
     width: 300px;
     background: #fff;
@@ -330,12 +409,14 @@ i.arrow {
     padding-bottom: 1.5em;
     font-family: 'OpenSans-Regular';
 }
+
 #loginForm fieldset {
     margin: 0 0 15px 0;
     display: block;
     border: 0;
     padding: 0;
 }
+
 fieldset#body {
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -344,6 +425,7 @@ fieldset#body {
     padding: 15px 15px;
     margin: 0;
 }
+
 #loginForm #checkbox {
     width: auto;
     margin: 2px 6px 0 0;
@@ -351,6 +433,7 @@ fieldset#body {
     padding: 0;
     border: 0;
 }
+
 #body label {
     color: #34353a;
     margin: 1px 0 0 0;
@@ -359,12 +442,14 @@ fieldset#body {
     font-size: 16px;
     font-weight: 400;
 }
+
 #loginForm #body fieldset label {
     display: block;
     float: none;
     margin: 0 0 6px 0;
     text-align: left;
 }
+
 #loginForm #login {
     width: 100%;
     background: #0166FF;
@@ -381,9 +466,11 @@ fieldset#body {
     outline: none;
     text-transform: uppercase;
 }
+
 #loginForm #login:hover {
     background: #0025CA;
 }
+
 #loginForm input {
     width: 100%;
     border: 1px solid #DADADA;
@@ -394,11 +481,13 @@ fieldset#body {
     -webkit-apperance: none;
     outline: none;
 }
+
 #body label i {
     color: #000;
     font-size: 1em;
     font-style: normal;
 }
+
 #loginForm span a {
     color: #34353a;
     font-size: 0.85em;
@@ -409,14 +498,19 @@ fieldset#body {
     padding: 0 16px;
 }
 
+
 /*-- Signup-Button --*/
+
 #signupButton {
     display: inline-block;
     position: relative;
     z-index: 30;
     cursor: pointer;
 }
+
+
 /*-- Login-Box --*/
+
 #signupBox {
     position: absolute;
     top: 60px;
@@ -426,6 +520,7 @@ fieldset#body {
     margin-bottom: 20px;
     border: 1px solid rgb(218, 218, 218);
 }
+
 #signupForm:after {
     content: '';
     position: absolute;
@@ -435,7 +530,10 @@ fieldset#body {
     border-right: 10px solid transparent;
     border-bottom: 10px solid #FFF;
 }
+
+
 /*-- Signup-Form --*/
+
 #signupForm {
     width: 300px;
     background: #fff;
@@ -443,12 +541,14 @@ fieldset#body {
     padding-bottom: 1.5em;
     font-family: 'OpenSans-Regular';
 }
+
 #signupForm fieldset {
     margin: 0 0 15px 0;
     display: block;
     border: 0;
     padding: 0;
 }
+
 fieldset#body {
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -457,6 +557,7 @@ fieldset#body {
     padding: 15px 15px;
     margin: 0;
 }
+
 #signupForm #checkbox {
     width: auto;
     margin: 2px 6px 0 0;
@@ -464,6 +565,7 @@ fieldset#body {
     padding: 0;
     border: 0;
 }
+
 #body label {
     color: #34353a;
     margin: 1px 0 0 0;
@@ -472,12 +574,14 @@ fieldset#body {
     font-size: 13px;
     font-weight: 400;
 }
+
 #signupForm #body fieldset label {
     display: block;
     float: none;
     margin: 0 0 6px 0;
     text-align: left;
 }
+
 #signupForm #login {
     width: 100%;
     font-size: 0.875em;
@@ -490,9 +594,11 @@ fieldset#body {
     -o-transition: all .5s;
     outline: none;
 }
+
 #signupForm #login:hover {
     background-color: #0025CA;
 }
+
 #signupForm input {
     width: 100%;
     border: 1px solid #DADADA;
@@ -503,11 +609,13 @@ fieldset#body {
     -webkit-apperance: none;
     outline: none;
 }
+
 #body label i {
     color: #000;
     font-size: 1em;
     font-style: normal;
 }
+
 #signupForm span a {
     color: #34353a;
     font-size: 13px;
@@ -517,16 +625,23 @@ fieldset#body {
     box-shadow: none;
     padding: 0 16px;
 }
+
 a.signup {
     color: rgba(51, 51, 51, 0.9);
 }
+
+
 /*-- //Navbar-Ends-Here --*/
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
     display: block;
     max-width: 100%;
 }
+
+
 /*-- //Login & Signin-Pop-Ends --*/
+
 
 /*-- //Header-Ends-Here --*/
 
@@ -541,20 +656,25 @@ h1.abbr {
     font-weight: normal;
 }
 
+
 /*-- About-Starts-Here --*/
+
 .about {
     padding-bottom: 50px;
     border-bottom: 1px solid #EEE;
 }
+
 .about p {
     color: #333;
     line-height: 35px;
     padding: 0 0 50px 0;
 }
+
 .about p.aboutContent {
-  font-size : 20px;
-  padding: 0 0 0 0;
+    font-size: 20px;
+    padding: 0 0 0 0;
 }
+
 .about span {
     color: #333;
     font-weight: bold;
@@ -562,89 +682,117 @@ h1.abbr {
     font-size: 15px;
 }
 
-
 .about-programs {
     background-color: #009688;
     padding-bottom: 50px;
     text-align: center;
 }
+
 .about-program-grid {
     padding-top: 30px;
 }
+
 .about-programs h3 {
     color: #FFF;
     padding: 50px 0 20px 0;
 }
+
 .about-programs p {
     color: #FFF;
     padding: 20px 0;
 }
+
 .about-programs p.top-title {
-  font-size: 18px;
+    font-size: 18px;
 }
-.about-program1, .about-program2, .about-program3, .about-program4 {
+
+.about-program1,
+.about-program2,
+.about-program3,
+.about-program4 {
     background-color: #EEE;
     padding: 20px 20px 10px;
     color: #FFF;
     border: 1px solid #EEE;
 }
+
 .about-program1 {
     background: url("../images/p1.png") no-repeat 95px 20px;
 }
+
 .about-program2 {
     background: url("../images/p2.png") no-repeat 95px 20px;
 }
+
 .about-program3 {
     background: url("../images/p3.png") no-repeat 95px 20px;
 }
+
 .about-program4 {
     background: url("../images/p4.png") no-repeat 95px 20px;
 }
 
-.about-program1 h4, .about-program2 h4, .about-program3 h4, .about-program4 h4 {
+.about-program1 h4,
+.about-program2 h4,
+.about-program3 h4,
+.about-program4 h4 {
     margin-top: 100px;
     font-size: 20px;
     padding: 0;
 }
-.about-program1 p, .about-program2 p, .about-program3 p, .about-program4 p {
+
+.about-program1 p,
+.about-program2 p,
+.about-program3 p,
+.about-program4 p {
     padding: 30px 0;
     line-height: 25px;
-
 }
 
 
 /*-- //About-Ends-Here --*/
 
+
 /*-- Foreword-Starts-Here --*/
+
 .foreword {
     padding: 0 50px 40px;
     border-bottom: 1px solid #EEE;
 }
+
 .foreword p {
     line-height: 35px;
 }
+
 .foreword span {
     display: block;
     text-align: right;
     font-size: 19px;
     line-height: 35px;
 }
+
+
 /*-- //Foreword-Ends-Here --*/
 
+
 /*-- Admissions-Starts-Here --*/
+
 .admissions {
     padding: 0 50px 60px 50px;
     border-bottom: 1px solid #EEE;
     text-align: center;
 }
+
 .admissions h3 {
     padding-bottom: 40px;
 }
+
 .admissions p {
     line-height: 35px;
     padding: 0 0 45px 0;
     text-align: left;
 }
+
 .pdf a {
     padding: 10px 20px;
     background-color: #F5F5F5;
@@ -652,282 +800,371 @@ h1.abbr {
     font-size: 18px;
     border: 1px solid #000;
 }
+
 .pdf sup {
     color: #03A9F4;
     font-size: 12px;
     top: -10px;
     font-weight: 600;
 }
+
 .pdf a:hover {
     background-color: #333;
     color: #FFF;
 }
+
+
 /*-- //Admissions-Ends-Here --*/
 
+
 /*-- Alumnus-Starts-Here --*/
+
 .alumnus {
     margin-bottom: 50px;
 }
+
 .alumnus img {
     padding: 30px 0px;
     opacity: 0.8;
 }
+
 .alumnus img:hover {
     opacity: 1;
 }
+
 .alumnus h4 {
     font-size: 25px;
     padding: 0;
     color: #009688;
 }
+
 .alumnus p {
     line-height: 30px;
 }
+
+
 /*-- //Alumnus-Ends-Here --*/
 
+
 /*-- Programs-Starts-Here --*/
+
 .programs {
     background-color: #142127;
     padding-bottom: 50px;
     text-align: center;
 }
+
 .program-grid {
     padding-top: 30px;
 }
+
 .programs h3 {
     color: #FFF;
     padding: 50px 0 20px 0;
 }
+
 .programs p {
     color: #FFF;
     padding: 20px 0;
 }
-.program1, .program2, .program3, .program4 {
+
+.program1,
+.program2,
+.program3,
+.program4 {
     background-color: #EEE;
     padding: 20px 20px 10px;
     color: #FFF;
     border: 1px solid #EEE;
 }
+
 .program1 {
     background: url("../images/p1.png") no-repeat 95px 20px;
 }
+
 .program2 {
     background: url("../images/p2.png") no-repeat 95px 20px;
 }
+
 .program3 {
     background: url("../images/p3.png") no-repeat 95px 20px;
 }
+
 .program4 {
     background: url("../images/p4.png") no-repeat 95px 20px;
 }
 
-.program1 h4, .program2 h4, .program3 h4, .program4 h4 {
+.program1 h4,
+.program2 h4,
+.program3 h4,
+.program4 h4 {
     margin-top: 100px;
     font-size: 20px;
     padding: 0;
 }
-.program1 p, .program2 p, .program3 p, .program4 p {
+
+.program1 p,
+.program2 p,
+.program3 p,
+.program4 p {
     padding: 30px 0;
     line-height: 25px;
     color: #8C8585;
 }
+
+
 /*-- //Programs-Ends-Here --*/
 
+
 /*-- Services-Starts-Here --*/
+
 div#services {
     border-bottom: 1px solid #EEE;
     padding-bottom: 40px;
 }
+
 .services h3 {
     padding-bottom: 40px;
 }
+
 .services p {
     line-height: 35px;
     padding-bottom: 20px;
     text-align: center;
 }
+
 .services p.top-title {
-  font-size: 18px;
+    font-size: 18px;
 }
+
 .services h4 {
     padding: 30px 0 30px 80px;
     font-size: 23px;
     color: #009688;
     text-align: left;
 }
+
 .services-info1 {
     background: url("../images/s1.png") no-repeat 0px 25px;
 }
+
 .services-info2 {
     background: url("../images/s2.png") no-repeat 0px 20px;
 }
+
 .services-info3 {
     background: url("../images/s3.png") no-repeat 0px 25px;
 }
+
 .services-info4 {
     background: url("../images/s4.png") no-repeat 0px 25px;
 }
 
-.services-info1 p, .services-info2 p, .services-info3 p, .services-info4 p {
+.services-info1 p,
+.services-info2 p,
+.services-info3 p,
+.services-info4 p {
     padding-left: 80px;
     text-align: left;
     padding-bottom: 0;
 }
+
+
 /*-- //Services-Ends-Here --*/
 
+
 /*-- Faculty-Starts-Here --*/
+
 .faculty {
     border-bottom: 1px solid #EEE;
     text-align: center;
 }
-.faculty .teacher{
+
+.faculty .teacher {
     padding-bottom: 30px;
 }
-.faculty p{
+
+.faculty p {
     border-bottom: 1px solid #EEE;
     text-align: left;
 }
-.faculty p.header{
+
+.faculty p.header {
     font-size: 20px;
     padding-bottom: 10px;
     color: #009688;
 }
-.faculty h6{
+
+.faculty h6 {
     padding-top: 10px;
     text-align: center;
 }
+
 .faculty h4 {
     padding: 25px 0 50px;
     font-size: 25px;
 }
+
 .team-top {
     padding: 5px;
 }
-.top-team{
-    margin:0;
+
+.top-team {
+    margin: 0;
 }
-.team-top  h6{
+
+.team-top h6 {
     margin: 20px 0 10px;
     font-size: 20px;
     color: #000;
     text-align: center;
-    padding:0;
+    padding: 0;
 }
-.team-top p{
+
+.team-top p {
     color: #999;
     font-size: 13px;
     line-height: 25px;
     text-align: center;
 }
-.get{
-    margin:0 auto;
+
+.get {
+    margin: 0 auto;
 }
+
 .view {
-  position: relative;
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
-.view .mask,.view .content {
-  width: 100%;
-  height: 333px;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
+
+.view .mask,
+.view .content {
+    width: 100%;
+    height: 333px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
 }
+
 .view img {
-   display: block;
-   position: relative;
-   width: 100%;
+    display: block;
+    position: relative;
+    width: 100%;
 }
+
 .view-seventh .mask {
     background-color: rgba(0, 0, 0, 0.54);
-   -webkit-transform: rotate(0deg) scale(1);
-   -moz-transform: rotate(0deg) scale(1);
-   -o-transform: rotate(0deg) scale(1);
-   -ms-transform: rotate(0deg) scale(1);
-   transform: rotate(0deg) scale(1);
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-   filter: alpha(opacity=0);
-   opacity: 0;
-   -webkit-transition: all 0.1s ease-out;
-   -moz-transition: all 0.1s ease-out;
-   -o-transition: all 0.1s ease-out;
-   -ms-transition: all 0.1s ease-out;
-   transition: all 0.1s ease-out;
+    -webkit-transform: rotate(0deg) scale(1);
+    -moz-transform: rotate(0deg) scale(1);
+    -o-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    -ms-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
 }
+
 .view-seventh:hover .mask {
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-   filter: alpha(opacity=100);
-   opacity: 1;
-   -webkit-transform: translateY(0px) rotate(0deg);
-   -moz-transform: translateY(0px) rotate(0deg);
-   -o-transform: translateY(0px) rotate(0deg);
-   -ms-transform: translateY(0px) rotate(0deg);
-   transform: translateY(0px) rotate(0deg);
-   -webkit-transition-delay: 0.1s;
-   -moz-transition-delay: 0.1s;
-   -o-transition-delay: 0.1s;
-   -ms-transition-delay: 0.4s;
-   transition-delay: 0.1s;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg);
+    -moz-transform: translateY(0px) rotate(0deg);
+    -o-transform: translateY(0px) rotate(0deg);
+    -ms-transform: translateY(0px) rotate(0deg);
+    transform: translateY(0px) rotate(0deg);
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    -ms-transition-delay: 0.4s;
+    transition-delay: 0.1s;
 }
+
 ul.social {
-  margin: 9em 0 0 0;
-  padding: 0;
+    margin: 9em 0 0 0;
+    padding: 0;
 }
+
 ul.social li {
-    display:inline-block;
+    display: inline-block;
 }
+
+
 /*-- //Faculty-Ends-Here --*/
 
+
 /*-- Edifice-Starts-Here --*/
+
 .edifice {
     padding-bottom: 50px;
     border-bottom: 1px solid #EEE;
     text-align: center;
 }
+
 img.lazyOwl {
     width: 100%;
 }
+
 #owl-demo .item img {
     height: 250px;
 }
+
+
 /*-- //Edifice-Ends-Here --*/
 
+
 /*-- Project-Starts-Here --*/
+
 div#project {
     border-bottom: 1px solid #EEE;
     text-align: center;
 }
+
 .project img {
     margin-bottom: 20px;
 }
+
 .project-grid h4 {
     padding: 0;
     font-size: 25px;
     color: #009688;
 }
+
 .project-grid p {
     line-height: 30px;
     margin-top: 20px;
 }
+
 .p2 {
     width: 33%;
     float: left;
     height: 310px;
 }
+
+
 /*-- //Project-Ends-Here --*/
 
+
 /*-- Events-Starts-Here --*/
+
 div#events {
     padding-bottom: 50px;
     border-bottom: 1px solid #EEE;
     text-align: center;
 }
+
 .event-info h3 {
     font-size: 25px;
     color: #009688;
     padding: 0px 0 20px 0;
 }
+
 .events li {
     display: block;
     padding: 10px;
@@ -935,25 +1172,35 @@ div#events {
     font-size: 15px;
     font-family: 'OpenSans-Regular';
 }
+
 .events span {
     color: #009688;
 }
+
+
 /*-- //Events-Ends-Here --*/
 
+
 /*-- News-Starts-Here --*/
+
 div#news {
     padding-bottom: 50px;
     border-bottom: 1px solid #EEE;
     text-align: center;
 }
+
+
 /*-- //News-Ends-Here --*/
 
+
 /*-- Contact-Starts-Here --*/
+
 div#contact {
     padding-bottom: 50px;
     border-bottom: 1px solid #EEE;
     font-family: 'OpenSans-Regular';
 }
+
 .contact_form input[type='text'] {
     width: 100%;
     border-radius: 0;
@@ -970,6 +1217,7 @@ div#contact {
     margin: 0 0 20px;
     background: none;
 }
+
 .contact_form textarea {
     width: 100%;
     border-radius: 0;
@@ -986,12 +1234,15 @@ div#contact {
     height: 191px;
     background: none;
 }
+
 form.contact_form {
     text-align: center;
 }
+
 .message {
     margin-bottom: 50px;
 }
+
 .more_btn {
     padding: 13px 30px;
     border: 1px solid #333;
@@ -1005,35 +1256,47 @@ form.contact_form {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
+
 .more_btn:hover {
     color: #FFF;
     background-color: #142127;
     cursor: pointer;
 }
+
+
 /*-- //Contact-Ends-Here --*/
 
+
 /*-- Map-Starts-Here --*/
+
 .map iframe {
     width: 100%;
     height: 500px;
     border: 5px solid #FAFAFA;
 }
+
+
 /*-- //Map-Ends-Here --*/
 
+
 /*-- Footer-Starts-Here --*/
+
 .footer {
     background-color: #142127;
     font-family: 'OpenSans-Regular';
 }
+
 .footer-info {
     padding-top: 10px;
 }
+
 .footer h3 {
     color: #009688;
     font-size: 20px;
     padding: 20px 0;
     text-align: left;
 }
+
 p.access-p {
     color: #525F5D;
     font-size: 13px;
@@ -1046,12 +1309,15 @@ address li {
     font-size: 13px;
     line-height: 20px;
 }
+
 address {
     margin-bottom: 20px;
 }
+
 a.mail {
     color: #047D74;
 }
+
 a.mail:hover {
     color: #FFF;
     text-decoration: none;
@@ -1062,9 +1328,11 @@ ul.footer_list li {
     line-height: 20px;
     font-size: 13px;
 }
+
 a.scroll {
     color: #525F5D;
 }
+
 a.scroll:hover {
     color: #FFF;
 }
@@ -1072,45 +1340,58 @@ a.scroll:hover {
 .social {
     text-align: center;
 }
+
 .footer ul.social {
     margin-top: 30px;
 }
+
 ul.social li {
     display: inline-block;
 }
+
 ul.social li a {
     display: inline-block;
     width: 50px;
     height: 50px;
     background: url("../images/img-sprite.png") no-repeat 0px 0px;
 }
+
 ul.social li a.facebook {
     background-position: 0px 0px;
 }
+
 ul.social li a.facebook:hover {
     background-position: 0px -50px;
 }
+
 ul.social li a.twitter {
     background-position: -50px 0px;
 }
+
 ul.social li a.twitter:hover {
     background-position: -50px -50px;
 }
+
 ul.social li a.googleplus {
     background-position: -100px 0px;
 }
+
 ul.social li a.googleplus:hover {
     background-position: -100px -50px;
 }
+
 ul.social li a.instagram {
     background-position: -150px 0px;
 }
+
 ul.social li a.instagram:hover {
     background-position: -150px -50px;
 }
+
 ul.social li a.youtube {
     background-position: -200px 0px;
 }
+
 ul.social li a.youtube:hover {
     background-position: -200px -50px;
 }
@@ -1119,13 +1400,16 @@ ul.social li a.youtube:hover {
     text-align: center;
     padding: 15px 0 30px 0;
 }
+
 .copyright p {
     color: #FFF;
 }
+
 .copyright a {
     color: #FFF;
     text-decoration: none;
 }
+
 .copyright a:hover {
     color: #009688;
     text-decoration: underline;
@@ -1144,33 +1428,37 @@ ul.social li a.youtube:hover {
     text-indent: 100%;
     background: url("../images/to-top2.png") no-repeat 0px 0px;
 }
+
+
 /*-- //Footer-Ends-Here --*/
 
 
 /*-- //Custom start here --*/
-h1.titleHeader{
-  padding: 50px 0 20px 0;
-  font-family: 'FjallaOne-Regular';
-  font-size: 40px;
-  border-bottom: 1px solid #EEE;
-  font-weight: normal;
+
+h1.titleHeader {
+    padding: 50px 0 20px 0;
+    font-family: 'FjallaOne-Regular';
+    font-size: 40px;
+    border-bottom: 1px solid #EEE;
+    font-weight: normal;
 }
 
-h3.titleHeader{
-  padding: 50px 0 20px 0;
-  font-family: 'FjallaOne-Regular';
-  font-size: 40px;
-  /*border-bottom: 1px solid #EEE;*/
-  font-weight: normal;
+h3.titleHeader {
+    padding: 50px 0 20px 0;
+    font-family: 'FjallaOne-Regular';
+    font-size: 40px;
+    /*border-bottom: 1px solid #EEE;*/
+    font-weight: normal;
 }
-
 
 
 /*-- //Custom end here --*/
 
 
 /*-- Slider-Animation-Starts-Here (No-Need-To-Change) --*/
+
 .slideanim {}
+
 .slide {
     animation-name: slide;
     -webkit-animation-name: slide;
@@ -1178,6 +1466,7 @@ h3.titleHeader{
     -webkit-animation-duration: 1s;
     visibility: visible;
 }
+
 @keyframes slide {
     0% {
         opacity: 0;
@@ -1188,6 +1477,7 @@ h3.titleHeader{
         -webkit-transform: translateY(0%);
     }
 }
+
 @-webkit-keyframes slide {
     0% {
         opacity: 0;
@@ -1198,14 +1488,19 @@ h3.titleHeader{
         -webkit-transform: translateY(0%);
     }
 }
+
+
 /*-- Slider-Animation-Ends-Here --*/
 
+
 /*-- //Index-Page-Styling --*/
+
 
 /*-- Responsive-Code --*/
 
 @media screen and (max-width:1920px) {
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 40px;
     }
 }
@@ -1217,10 +1512,10 @@ h3.titleHeader{
 }
 
 @media screen and (max-width:1080px) {
-    .navbar-nav > li > a {
+    .navbar-nav>li>a {
         font-size: 13px;
     }
-    .dropdown-menu > li > a {
+    .dropdown-menu>li>a {
         font-size: 13px;
     }
     #loginpop a span {
@@ -1257,14 +1552,22 @@ h3.titleHeader{
     .about span {
         line-height: 32px;
     }
-
-    .about-program1 h4, .about-program2 h4, .about-program3 h4, .about-program4 h4 {
+    .about-program1 h4,
+    .about-program2 h4,
+    .about-program3 h4,
+    .about-program4 h4 {
         padding-bottom: 10px;
     }
-    .about-program1 p, .about-program2 p, .about-program3 p, .about-program4 p {
+    .about-program1 p,
+    .about-program2 p,
+    .about-program3 p,
+    .about-program4 p {
         padding: 10px 0;
     }
-    .about-program1, .about-program2, .about-program3, .about-program4 {
+    .about-program1,
+    .about-program2,
+    .about-program3,
+    .about-program4 {
         padding: 20px 5px 10px;
     }
     .about-program1 {
@@ -1279,16 +1582,22 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 70px 20px;
     }
-
-
-
-    .program1 h4, .program2 h4, .program3 h4, .program4 h4 {
+    .program1 h4,
+    .program2 h4,
+    .program3 h4,
+    .program4 h4 {
         padding-bottom: 10px;
     }
-    .program1 p, .program2 p, .program3 p, .program4 p {
+    .program1 p,
+    .program2 p,
+    .program3 p,
+    .program4 p {
         padding: 10px 0;
     }
-    .program1, .program2, .program3, .program4 {
+    .program1,
+    .program2,
+    .program3,
+    .program4 {
         padding: 20px 5px 10px;
     }
     .program1 {
@@ -1328,7 +1637,8 @@ h3.titleHeader{
     #about-p p {
         padding: 15px 0;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 273px;
     }
     .p2 {
@@ -1348,7 +1658,8 @@ h3.titleHeader{
         margin-top: 10px;
         margin-right: -10px;
     }
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 15px;
     }
     div#about-pic {
@@ -1360,8 +1671,6 @@ h3.titleHeader{
     .services h4 {
         font-size: 22px;
     }
-
-
     .about-program1 {
         background: url("../images/p1.png") no-repeat 132px 20px;
     }
@@ -1374,9 +1683,6 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 132px 20px;
     }
-
-
-
     .program1 {
         background: url("../images/p1.png") no-repeat 132px 20px;
     }
@@ -1389,7 +1695,8 @@ h3.titleHeader{
     .program4 {
         background: url("../images/p4.png") no-repeat 132px 20px;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 206px;
     }
     ul.social {
@@ -1404,7 +1711,11 @@ h3.titleHeader{
     h1.abbr {
         font-size: 35px;
     }
-    h2, h3, h4, h5, h6 {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         font-size: 30px;
         padding: 30px 0;
     }
@@ -1442,8 +1753,6 @@ h3.titleHeader{
     .alumnus p {
         line-height: 25px;
     }
-
-
     .about-programs {
         padding-bottom: 0;
     }
@@ -1465,9 +1774,6 @@ h3.titleHeader{
     .about-programs p {
         padding: 0;
     }
-
-
-
     .programs {
         padding-bottom: 0;
     }
@@ -1536,7 +1842,7 @@ h3.titleHeader{
         width: 88%;
         margin-right: 0px;
     }
-    .navbar > .container-fluid .navbar-brand {
+    .navbar>.container-fluid .navbar-brand {
         margin-left: -5px;
     }
     .caret {
@@ -1546,10 +1852,11 @@ h3.titleHeader{
     .carat2 span.caret {
         margin-right: 0px;
     }
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 15px;
     }
-    .nav > li > a {
+    .nav>li>a {
         padding: 15px 5px;
     }
     .dropdown-menu {
@@ -1558,7 +1865,7 @@ h3.titleHeader{
     ul.dropdown-menu.dropdown-menu2 {
         width: 125px;
     }
-    .dropdown-menu > li > a {
+    .dropdown-menu>li>a {
         padding: 10px;
     }
 }
@@ -1576,7 +1883,11 @@ h3.titleHeader{
     h1.abbr {
         font-size: 30px;
     }
-    h2, h3, h4, h5, h6 {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         font-size: 28px;
     }
     .about p {
@@ -1585,7 +1896,8 @@ h3.titleHeader{
 }
 
 @media screen and (max-width:768px) {
-    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
         margin-left: 0;
     }
     .dropdown-menu {
@@ -1594,14 +1906,14 @@ h3.titleHeader{
 }
 
 @media screen and (max-width:736px) {
-    .container-fluid > .navbar-collapse {
+    .container-fluid>.navbar-collapse {
         margin-right: 0;
         margin-left: 0;
     }
     .navbar-nav {
         margin: 0;
     }
-    .navbar > .container-fluid .navbar-brand {
+    .navbar>.container-fluid .navbar-brand {
         margin-left: 15px;
     }
     .navbar-right {
@@ -1616,17 +1928,19 @@ h3.titleHeader{
     .navbar-collapse.in {
         overflow-y: visible;
     }
-    .navbar-nav > li {
+    .navbar-nav>li {
         width: 100%;
     }
-    .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+    .navbar-nav .open .dropdown-menu>li>a,
+    .navbar-nav .open .dropdown-menu .dropdown-header {
         padding: 5px 15px 5px 14px;
     }
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
         color: #009688;
         background-color: #EEE;
     }
-    .nav > li > a {
+    .nav>li>a {
         padding: 10px 0;
     }
     .dropdown-submenu {
@@ -1647,11 +1961,13 @@ h3.titleHeader{
     #loginpop a {
         width: 100%;
     }
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 185px;
         top: 45px;
     }
-    #loginForm:after, #signupForm:after {
+    #loginForm:after,
+    #signupForm:after {
         right: 133px;
     }
     .caret {
@@ -1684,7 +2000,6 @@ h3.titleHeader{
         float: left;
         padding: 0 5px;
     }
-
     .about-program1 {
         background: url("../images/p1.png") no-repeat 123px 20px;
     }
@@ -1697,7 +2012,6 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 123px 20px;
     }
-
     .program1 {
         background: url("../images/p1.png") no-repeat 123px 20px;
     }
@@ -1719,7 +2033,8 @@ h3.titleHeader{
         width: 33%;
         float: left;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 263px;
     }
     ul.social {
@@ -1787,14 +2102,19 @@ h3.titleHeader{
 }
 
 @media screen and (max-width:667px) {
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 150px;
     }
     h1.abbr {
         font-size: 27px;
         line-height: 35px;
     }
-    h2, h3, h4, h5, h6 {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         font-size: 25px;
         padding: 20px 0;
     }
@@ -1814,7 +2134,6 @@ h3.titleHeader{
     .alumnus h4 {
         font-size: 20px;
     }
-
     .about-program1 {
         background: url("../images/p1.png") no-repeat 105px 10px;
     }
@@ -1827,12 +2146,12 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 105px 10px;
     }
-    .about-program1 h4, .about-program2 h4, .about-program3 h4, .about-program4 h4 {
+    .about-program1 h4,
+    .about-program2 h4,
+    .about-program3 h4,
+    .about-program4 h4 {
         margin-top: 80px;
     }
-
-
-
     .program1 {
         background: url("../images/p1.png") no-repeat 105px 10px;
     }
@@ -1845,10 +2164,14 @@ h3.titleHeader{
     .program4 {
         background: url("../images/p4.png") no-repeat 105px 10px;
     }
-    .program1 h4, .program2 h4, .program3 h4, .program4 h4 {
+    .program1 h4,
+    .program2 h4,
+    .program3 h4,
+    .program4 h4 {
         margin-top: 80px;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 236px;
     }
     .services h3 {
@@ -1879,10 +2202,10 @@ h3.titleHeader{
     .navbar-toggle {
         margin-right: 10px;
     }
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 137px;
     }
-
     .about-program1 {
         background: url("../images/p1.png") no-repeat 100px 10px;
     }
@@ -1895,8 +2218,6 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 100px 10px;
     }
-
-
     .program1 {
         background: url("../images/p1.png") no-repeat 100px 10px;
     }
@@ -1913,11 +2234,15 @@ h3.titleHeader{
         padding: 30px 0 15px 70px;
         font-size: 17px;
     }
-    .services-info1 p, .services-info2 p, .services-info3 p, .services-info4 p {
+    .services-info1 p,
+    .services-info2 p,
+    .services-info3 p,
+    .services-info4 p {
         padding-left: 70px;
         line-height: 25px;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 225px;
     }
     ul.social {
@@ -1933,14 +2258,17 @@ h3.titleHeader{
 }
 
 @media screen and (max-width:603px) {
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 118px;
     }
-
     .about-programs p {
         padding: 0 5px;
     }
-    .about-program1 p, .about-program2 p, .about-program3 p, .about-program4 p {
+    .about-program1 p,
+    .about-program2 p,
+    .about-program3 p,
+    .about-program4 p {
         padding: 10px 0;
     }
     .about-program1 {
@@ -1955,14 +2283,13 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 90px 10px;
     }
-
-
-
-
     .programs p {
         padding: 0 5px;
     }
-    .program1 p, .program2 p, .program3 p, .program4 p {
+    .program1 p,
+    .program2 p,
+    .program3 p,
+    .program4 p {
         padding: 10px 0;
     }
     .program1 {
@@ -1986,7 +2313,8 @@ h3.titleHeader{
     .project-grid p {
         line-height: 19px;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 210px;
     }
     ul.social {
@@ -2017,7 +2345,8 @@ h3.titleHeader{
 }
 
 @media screen and (max-width:568px) {
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 100px;
     }
     h1.abbr {
@@ -2044,7 +2373,8 @@ h3.titleHeader{
     .admissions p {
         line-height: 25px;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 196px;
     }
     .alumnus p {
@@ -2053,11 +2383,13 @@ h3.titleHeader{
     .alumnus img {
         padding: 20px 0px;
     }
-
     .about-programs h3 {
         padding: 30px 0 20px 0;
     }
-    .about-program1 h4, .about-program2 h4, .about-program3 h4, .about-program4 h4 {
+    .about-program1 h4,
+    .about-program2 h4,
+    .about-program3 h4,
+    .about-program4 h4 {
         margin-top: 70px;
     }
     .about-program1 {
@@ -2072,22 +2404,22 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 92px 10px;
     }
-    .about-program1 p, .about-program2 p, .about-program3 p, .about-program4 p {
+    .about-program1 p,
+    .about-program2 p,
+    .about-program3 p,
+    .about-program4 p {
         line-height: 20px;
     }
     .about-program-grid {
         padding-bottom: 0;
     }
-
-
-
-
-
-
     .programs h3 {
         padding: 30px 0 20px 0;
     }
-    .program1 h4, .program2 h4, .program3 h4, .program4 h4 {
+    .program1 h4,
+    .program2 h4,
+    .program3 h4,
+    .program4 h4 {
         margin-top: 70px;
     }
     .program1 {
@@ -2102,7 +2434,10 @@ h3.titleHeader{
     .program4 {
         background: url("../images/p4.png") no-repeat 92px 10px;
     }
-    .program1 p, .program2 p, .program3 p, .program4 p {
+    .program1 p,
+    .program2 p,
+    .program3 p,
+    .program4 p {
         line-height: 20px;
     }
     .program-grid {
@@ -2119,7 +2454,10 @@ h3.titleHeader{
         font-size: 15px;
         padding: 30px 0 15px 75px;
     }
-    .services-info1 p, .services-info2 p, .services-info3 p, .services-info4 p {
+    .services-info1 p,
+    .services-info2 p,
+    .services-info3 p,
+    .services-info4 p {
         padding-left: 75px;
         line-height: 20px;
         font-size: 12px;
@@ -2167,7 +2505,8 @@ h3.titleHeader{
 }
 
 @media screen and (max-width:533px) {
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 83px;
     }
     div#about-pic {
@@ -2178,10 +2517,10 @@ h3.titleHeader{
         width: 100%;
         padding-top: 30px;
     }
-    #about-p p, .about span {
+    #about-p p,
+    .about span {
         line-height: 25px;
     }
-
     .about-program1 {
         background: url("../images/p1.png") no-repeat 84px 10px;
     }
@@ -2194,9 +2533,6 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 84px 10px;
     }
-
-
-
     .program1 {
         background: url("../images/p1.png") no-repeat 84px 10px;
     }
@@ -2209,20 +2545,27 @@ h3.titleHeader{
     .program4 {
         background: url("../images/p4.png") no-repeat 84px 10px;
     }
-    .services-info1, .services-info2, .services-info3, .services-info4 {
+    .services-info1,
+    .services-info2,
+    .services-info3,
+    .services-info4 {
         background-size: 50px;
     }
     .services h4 {
         padding-left: 60px;
     }
-    .services-info1 p, .services-info2 p, .services-info3 p, .services-info4 p {
+    .services-info1 p,
+    .services-info2 p,
+    .services-info3 p,
+    .services-info4 p {
         padding-left: 60px;
     }
     .project-grid p {
         line-height: 17px;
         margin-top: 5px;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 182px;
     }
     .team-top h6 {
@@ -2246,13 +2589,18 @@ h3.titleHeader{
 }
 
 @media screen and (max-width:480px) {
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 57px;
     }
     h1.abbr {
         font-size: 23px;
     }
-    h2, h3, h4, h5, h6 {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         font-size: 22px;
         padding: 15px 0;
     }
@@ -2273,7 +2621,6 @@ h3.titleHeader{
     .about {
         padding-bottom: 20px;
     }
-
     .about-program1 {
         background: url("../images/p1.png") no-repeat 71px 10px;
     }
@@ -2286,9 +2633,6 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 71px 10px;
     }
-
-
-
     .program1 {
         background: url("../images/p1.png") no-repeat 71px 10px;
     }
@@ -2301,14 +2645,20 @@ h3.titleHeader{
     .program4 {
         background: url("../images/p4.png") no-repeat 71px 10px;
     }
-    .services-info1, .services-info2, .services-info3, .services-info4 {
+    .services-info1,
+    .services-info2,
+    .services-info3,
+    .services-info4 {
         background-size: 50px;
     }
     .services h4 {
         font-size: 14px;
         padding: 30px 0 15px 55px;
     }
-    .services-info1 p, .services-info2 p, .services-info3 p, .services-info4 p {
+    .services-info1 p,
+    .services-info2 p,
+    .services-info3 p,
+    .services-info4 p {
         padding-left: 55px;
     }
     .top-in2 span {
@@ -2320,7 +2670,8 @@ h3.titleHeader{
     .team-top {
         width: 50%;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 250px;
     }
     ul.social {
@@ -2347,7 +2698,8 @@ h3.titleHeader{
     body p {
         font-size: 13px;
     }
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 25px;
     }
     p {
@@ -2356,7 +2708,10 @@ h3.titleHeader{
     .about span {
         font-size: 12px;
     }
-    .services-info1 p, .services-info2 p, .services-info3 p, .services-info4 p {
+    .services-info1 p,
+    .services-info2 p,
+    .services-info3 p,
+    .services-info4 p {
         font-size: 12px;
     }
     div#about-pic {
@@ -2373,7 +2728,6 @@ h3.titleHeader{
         width: 100%;
         padding: 0 5px;
     }
-
     .about-program1 {
         background: url("../images/p1.png") no-repeat 145px 10px;
     }
@@ -2386,10 +2740,6 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 145px 10px;
     }
-
-
-
-
     .program1 {
         background: url("../images/p1.png") no-repeat 145px 10px;
     }
@@ -2408,10 +2758,14 @@ h3.titleHeader{
     .services h4 {
         padding: 25px 0 10px 60px;
     }
-    .services-info1 p, .services-info2 p, .services-info3 p, .services-info4 p {
+    .services-info1 p,
+    .services-info2 p,
+    .services-info3 p,
+    .services-info4 p {
         font-size: 13px;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 210px;
     }
     ul.social {
@@ -2457,10 +2811,10 @@ h3.titleHeader{
 }
 
 @media screen and (max-width:384px) {
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 10px;
     }
-
     .about-program1 {
         background: url("../images/p1.png") no-repeat 130px 10px;
     }
@@ -2473,8 +2827,6 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 130px 10px;
     }
-
-
     .program1 {
         background: url("../images/p1.png") no-repeat 130px 10px;
     }
@@ -2492,7 +2844,8 @@ h3.titleHeader{
         height: 220px;
         margin-bottom: 15px;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 192px;
     }
     ul.social {
@@ -2515,10 +2868,12 @@ h3.titleHeader{
     .project-grid p {
         line-height: 15px;
     }
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 5px;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 187px;
     }
     ul.social {
@@ -2527,10 +2882,10 @@ h3.titleHeader{
 }
 
 @media screen and (max-width:360px) {
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: 0px;
     }
-
     .about-program1 {
         background: url("../images/p1.png") no-repeat 120px 10px;
     }
@@ -2543,8 +2898,6 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 120px 10px;
     }
-
-
     .program1 {
         background: url("../images/p1.png") no-repeat 120px 10px;
     }
@@ -2557,19 +2910,20 @@ h3.titleHeader{
     .program4 {
         background: url("../images/p4.png") no-repeat 120px 10px;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 178px;
     }
 }
 
 @media screen and (max-width:320px) {
-    #loginBox, #signupBox {
+    #loginBox,
+    #signupBox {
         right: -30px;
     }
     .a1 {
         margin-bottom: 20px;
     }
-
     .about-program1 {
         background: url("../images/p1.png") no-repeat 100px 10px;
     }
@@ -2582,8 +2936,6 @@ h3.titleHeader{
     .about-program4 {
         background: url("../images/p4.png") no-repeat 100px 10px;
     }
-
-
     .program1 {
         background: url("../images/p1.png") no-repeat 100px 10px;
     }
@@ -2596,7 +2948,8 @@ h3.titleHeader{
     .program4 {
         background: url("../images/p4.png") no-repeat 100px 10px;
     }
-    .view .mask, .view .content {
+    .view .mask,
+    .view .content {
         height: 153px;
     }
     ul.social {
@@ -2626,5 +2979,157 @@ h3.titleHeader{
         width: 25%;
     }
 }
+
+.modal {
+    /*   display: block;*/
+    padding-right: 0px;
+    background-color: rgba(4, 4, 4, 0.8);
+}
+
+.modal-dialog {
+    top: 15%;
+    width: 100%;
+    position: absolute;
+}
+
+.modal-content {
+    border-radius: 0px;
+    border: none;
+    top: 40%;
+}
+
+.modal-body {
+    background-color: #0f8845;
+    color: white;
+}
+
+
+/*
+/* Created by Filipe Pina
+ * Specific styles of signin, register, component
+ */
+
+
+/*
+ * General styles
+ */
+
+
+/*#playground-container {
+    height: 500px;
+    overflow: hidden !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+body,
+html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(https://i.ytimg.com/vi/4kfXjatgeEU/maxresdefault.jpg);
+    font-family: 'Oxygen', sans-serif;
+    background-size: cover;
+}*/
+
+.main {
+    margin: 50px 15px;
+}
+
+h1.title {
+    font-size: 50px;
+    font-family: 'Passion One', cursive;
+    font-weight: 400;
+}
+
+hr {
+    width: 10%;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login {
+    background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form-control {
+    height: auto!important;
+    padding: 8px 12px !important;
+}
+
+.input-group {
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.21)!important;
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.21)!important;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.21)!important;
+}
+
+#button {
+    border: 1px solid #ccc;
+    margin-top: 28px;
+    padding: 6px 12px;
+    color: #666;
+    text-shadow: 0 1px #fff;
+    cursor: pointer;
+    -moz-border-radius: 3px 3px;
+    -webkit-border-radius: 3px 3px;
+    border-radius: 3px 3px;
+    -moz-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    -webkit-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #eeeeee));
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -o-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -ms-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
+}
+
+.main-center {
+    margin-top: 5px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 10px 40px;
+    background: #009688;
+    color: #FFF;
+    text-shadow: none;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+}
+
+span.input-group-addon i {
+    color: #009688;
+    font-size: 17px;
+}
+
+.login-button {
+    margin-top: 5px;
+}
+
+.login-register {
+    font-size: 11px;
+    text-align: center;
+}
+
 
 /*-- //Responsive-Code --*/
